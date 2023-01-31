@@ -6,10 +6,9 @@
 24 -> 4 16 4
 60 -> 10 40 10'''
 
-S = 114
-temp = S / 3
-Petia = temp/2
-Sereja = temp / 2
+S = 60
+Petia = S/6
+Sereja = S / 2
 Katia = (Petia + Sereja) * 2
-print(Petia, Katia, Sereja)
+print(int(Petia), int(Katia), int(Sereja))
 
