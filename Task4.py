@@ -6,11 +6,11 @@
 
 n = 3
 m = 2
-k = 3
+k = 6
 
 s = n*m
 
-if (s-k)%2 > 0 and (n%3>0 or n%2>0):
-    print('No')
-else:
+if (s-k)%2 == 0 or k%n == 0 or k%m==0:
     print('Yes')
+else:
+    print('No')
